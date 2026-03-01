@@ -308,11 +308,12 @@ for entry in st.session_state.chat_history:
                         f"— chunk `{chunk.get('chunk_index', '?')}`"
                     )
                     st.text_area(
-                        label="",
+                        label="Chunk text",
                         value=chunk.get("text", ""),
                         height=120,
                         key=f"chunk_{id(entry)}_{i}",
                         disabled=True,
+                        label_visibility="collapsed",
                     )
 
 # ── Query input ───────────────────────────────────────────────────────────────

@@ -60,15 +60,26 @@ def _load_txt(path: Path) -> str:
         return fh.read()
 
 
+# ──────────────────────────────────────────────────────────────────────────────
+# IPC chapter → starting section number mapping (official IPC 1860 numbering)
+# Used to embed real section numbers in chunk text so BM25 can find "section 302"
+# ──────────────────────────────────────────────────────────────────────────────
+_IPC_CHAPTER_MAP_PATH = Path(__file__).parent.parent / "data" / "ipc_chapter_sections.json"
+
+def _load_ipc_chapter_map() -> Dict:
+    """Load chapter → starting section number mapping for IPC."""
+    if _IPC_CHAPTER_MAP_PATH.exists():
+        with open(_IPC_CHAPTER_MAP_PATH, encoding="utf-8") as fh:
+            return json.load(fh)
+    return {}
+
+
 def _load_json_sections(path: Path) -> List[Dict]:
     """
     Load a JSON file and return one document dict per section/record.
 
-    Handles:
-      - IPC/CrPC-style: list of dicts with 'section_title' + 'section_desc'
-      - Generic: list of dicts with 'text', 'description', 'content', 'body'
-      - Plain string list
-      - Single string or plain dict
+    For IPC (ipc.json), injects real section numbers using the chapter map
+    so that queries like 'section 302' find the correct provision.
 
     Returns:
         List of {'source': filename, 'text': section_text} dicts.
@@ -78,6 +89,11 @@ def _load_json_sections(path: Path) -> List[Dict]:
 
     source = path.name
     docs: List[Dict] = []
+
+    # Load IPC chapter map only for ipc.json
+    ipc_chapter_map = _load_ipc_chapter_map() if source.lower() == "ipc.json" else {}
+    # Per-chapter counter: tracks how many sections we've seen in each chapter
+    chapter_counters: Dict[str, int] = {}
 
     if isinstance(data, str):
         return [{"source": source, "text": data}]
@@ -90,12 +106,18 @@ def _load_json_sections(path: Path) -> List[Dict]:
                     title   = str(item.get("section_title",   "")).strip()
                     desc    = str(item.get("section_desc",    "")).strip()
                     chapter = str(item.get("chapter_title",   "")).strip()
-                    # Use explicit section number field if present (some datasets have it)
+                    chapter_num = str(item.get("chapter", "")).strip()
+
+                    # Compute real section number using chapter map (IPC only)
                     section_num = str(item.get("section", "")).strip()
+                    if not section_num and ipc_chapter_map and chapter_num in ipc_chapter_map:
+                        chapter_start = ipc_chapter_map[chapter_num]
+                        chapter_counters[chapter_num] = chapter_counters.get(chapter_num, 0) + 1
+                        section_num = str(chapter_start + chapter_counters[chapter_num] - 1)
 
                     parts_list = []
                     if chapter:
-                        parts_list.append(f"Chapter: {chapter}")
+                        parts_list.append(f"Chapter {chapter_num}: {chapter}")
                     if section_num:
                         parts_list.append(f"Section {section_num}: {title}")
                     else:
@@ -114,6 +136,7 @@ def _load_json_sections(path: Path) -> List[Dict]:
             elif isinstance(item, str) and item.strip():
                 docs.append({"source": source, "text": item.strip()})
         return docs
+
 
 
     if isinstance(data, dict):
