@@ -22,11 +22,14 @@ logger = logging.getLogger(__name__)
 # Fallback model chain
 # ──────────────────────────────────────────────────────────────────────────────
 _FALLBACK_MODELS = [
-    "gemini-2.5-flash",
-    "gemini-2.0-flash",
-    "gemini-1.5-flash",
-    "gemini-1.5-pro",
+    "models/gemini-2.5-flash",
+    "models/gemini-2.0-flash",
+    "models/gemini-flash-latest",
+    "models/gemini-pro-latest",
 ]
+
+
+
 
 
 def _get_client():

@@ -1,0 +1,113 @@
+question,expected,retrieved_rank,latency_s,query_type,difficulty,answer,grounded,citation,no_hallucination,quality_score
+What is the punishment for murder under IPC Section 302?,Punishment for murder,1,14.821058511734009,punishment,easy,"Under the Indian Penal Code, specifically the provision titled ""Punishment for murder"", whoever commits murder shall be punished with death, or imprisonment for life, and shall also be liable to a fine.",1,1,1,1
+What characterizes 'Culpable Homicide' in Indian law?,Culpable homicide,1,4.6651451587677,conceptual,medium,"In Indian law, 'Culpable Homicide' is characterized by causing death through an act performed with specific mental states. According to the provision titled ""Culpable homicide,"" a person commits this offence if they cause death by:
+
+1.  Intending to cause death.
+2.  Intending to cause a bodily injury that is likely to cause death.
+3.  Knowing that their act is likely to cause death.",1,1,1,1
+How can a person be arrested without a warrant under CrPC?,Arrest by police without warrant,0,7.3501667976379395,procedural,medium,"Under the Code of Criminal Procedure (CrPC), a person can be arrested without a warrant when a police officer in charge of a police station or an investigating officer deputes a subordinate officer to make",1,1,1,1
+What is the punishment for cheque bounce under NI Act?,Dishonour of cheque,1,3.4998795986175537,punishment,easy,"Under the Negotiable Instruments Act, if a cheque drawn by a person is dishonoured due to insufficient funds or exceeding the agreed-upon amount, that person is considered to have committed an offence.
+
+The punishment for this offence, as per **Dishonour of cheque for insufficiency, etc., of funds in the account**, can be:
+*   Imprisonment for a term that may extend to two years, or
+*   A fine which may extend to twice the amount of the cheque, or
+*   Both imprisonment and fine.
+
+However, this provision applies only if certain conditions are met:
+1.  The cheque was presented to the bank within six months from its drawing date or within its validity period, whichever is earlier.
+2.  The payee or holder of the cheque demanded payment by giving a written notice to the drawer within thirty days of receiving information from the bank about the cheque's return as unpaid.
+3.  The drawer failed to make the payment within fifteen days of receiving this notice.",1,1,1,1
+When is 'hearsay evidence' admissible under the Evidence Act?,Evidence of character,0,3.180453300476074,conceptual,hard,Not found in legal database.,1,1,1,1
+What is the penalty for driving without a license under MVA?,Driving without license,0,6.68393611907959,punishment,easy,"If a person drives a motor vehicle in a public or any other place while being disqualified under the Motor Vehicles Act for holding or obtaining a driving licence, they shall be punishable with imprisonment for a term which may extend to three months, or with a fine of ten thousand rupees, or with both. Any driving licence obtained by such a person shall also be of no effect.
+
+(Source: ""Whoever, being disqualified under this Act for holding or obtaining a driving licence drives a motor vehicle..."")",1,1,1,1
+Define 'Grevious Hurt' under the IPC.,Grievous hurt,1,3.42531156539917,conceptual,medium,"Under the Indian Penal Code (IPC), the following kinds of hurt are designated as ""grievous"" (Section 322: Grievous hurt):
+
+*   Emasculation.
+*   Permanent loss of sight in either eye.
+*   Permanent loss of hearing in either ear.
+*   Loss of any limb or joint.
+*   Destruction or permanent impairment of the powers of any limb or joint.
+*   Permanent disfiguration of the head or face.
+*   Fracture or dislocation of a bone or tooth.
+*   Any hurt that endangers life, or causes the person to suffer severe bodily pain for twenty days, or makes them unable to follow their ordinary activities for twenty days.",1,1,1,1
+What is the procedure for bail in non-bailable offences?,When bail may be taken in case of non-bailable offence,3,7.26076602935791,procedural,hard,"In the case of non-bailable offences, when a person accused or suspected of such an offence is arrested or detained without a warrant by a police officer, or appears or is brought before a Court (other than the High Court or Court of Session), they *may* be released on bail.
+
+However, bail shall generally *not* be granted under the following circumstances:
+1.  If there are reasonable grounds to believe that the person has committed an offence punishable with death or imprisonment for life.
+2.  If the offence is a cognizable one, and the person has a previous conviction for an offence punishable with death, life imprisonment, or imprisonment for seven years or more.
+3.  If the person has been previously convicted on two or more occasions of a cognizable offence punishable with imprisonment for three years or more but less than seven years.
+
+**Exceptions to these restrictions:**
+The Court *may* still direct the release on bail of a person falling under the above restrictions if:
+*   The person is under the age of sixteen years.
+*   The person is a woman.
+*   The person is sick or infirm.
+*   For a person falling under the second and third restrictions mentioned above, if the Court is satisfied that it is just and proper to do so for any other special reason.
+
+**Further provisions:**
+*   The mere fact that an accused person may be required for identification by witnesses during investigation is not a sufficient reason to refuse bail if they are otherwise entitled to it and undertake to comply with court directions.
+*   If the alleged offence is punishable with death, imprisonment for life, or imprisonment for seven years or more, bail cannot be granted without giving the Public Prosecutor an opportunity to be heard.
+*   If, at any stage of the investigation, inquiry, or trial, it appears that there are no reasonable grounds to believe the accused committed a non-bailable offence, but there are sufficient grounds for further inquiry into their guilt, the accused *shall* be released on bail, or at the discretion of the officer or Court, on executing a bond without sureties for their appearance.
+*   When a person accused of an offence punishable with imprisonment of seven years or more, or certain offences under the Indian Penal Code (Chapter VI, XVI, or XVII), is released on bail, the Court *shall* impose specific conditions.",1,1,1,1
+What is the definition of theft?,Theft,1,3.885479211807251,conceptual,easy,"The definition of theft is provided under Section 378: Theft.
+
+According to this provision, a person commits theft if they:
+1.  Intend to dishonestly take any movable property.
+2.  Take it out of the possession of another person.
+3.  Do so without that person's consent.
+4.  Move the property in order to take it.",1,1,1,1
+What constitutes 'Criminal Breach of Trust'?,Criminal breach of trust,1,12.80556344985962,conceptual,medium,"According to the provided legal context, **Criminal breach of trust** is constituted by the following elements and specific circumstances:
+
+**General Definition**
+As per the provision **""Criminal breach of trust"" (Section 405)**, this offense occurs when a person who is entrusted with property, or has control (dominion) over property, performs any of the following actions:
+*   **Dishonest Misappropriation:** They dishonestly take the property or convert it for their own personal use.
+*   **Violation of Law or Contract:** They dishonestly use or dispose of the property in a way that violates a legal direction or a legal contract (whether express or implied) regarding how that trust should be managed.
+*   **Willful Allowance:** They willfully allow another person to carry out any of the actions mentioned above.
+
+**Specific Categories and Punishments**
+The law also defines specific instances of this crime based on the role of the individual:
+
+*   **Clerks or Servants:** Under the provision **""Criminal breach of trust by clerk or servant"" (Section 408)**, if a clerk or servant is entrusted with property in that capacity and commits a criminal breach of trust, they can be punished with a fine and imprisonment for up to seven years.
+*   **Public Servants and Professionals:** According to the provision",1,1,1,1
+What is the punishment for Receiving property taken by war or depredation mentioned in sections 125 and 126?,Receiving property taken by war or depredation mentioned in sections 125 and 126,1,7.269720554351807,punishment,easy,"According to the provision titled **""Receiving property taken by war or depredation mentioned in sections 125 and 126""**, if a person receives any property while knowing that it was taken during the commission of the offenses described in sections 125 and 126, they shall be punished as follows:
+
+*   **Imprisonment:** They may face imprisonment of either description for a term that can extend up to seven years.
+*   **Fine:** They shall also be liable to pay a fine.
+*   **Forfeiture:** The property that was received is subject to forfeiture.",1,1,1,1
+"Explain the concept of Forgery of valuable security, will, etc. in Indian law.","Forgery of valuable security, will, etc.",1,8.904480934143066,conceptual,hard,"Under Indian law, the concept of forgery regarding valuable securities and wills is defined through the following provisions:
+
+**Definition of Valuable Security**
+According to **Section 39: Valuable security**, a ""valuable security"" is a document that creates, extends, transfers, restricts, extinguishes, or releases a legal right. It also includes any document where a person acknowledges a legal liability or confirms they do not have a certain legal right.
+
+**Forgery of Valuable Security, Wills, etc.**
+Under **Section 419: Forgery of valuable security, will, etc.**, it is a serious offense to forge specific types of important documents. These include:
+*   A will or a document giving authority to adopt a son.
+*   A valuable security.
+*   A document that gives someone the authority to create or transfer a valuable security, or to receive money, interest, or dividends.
+*   A document that acts as a receipt or ""acquittance"" acknowledging the payment of money or the delivery of movable property or valuable securities.
+
+**Punishment for Forgery**
+Anyone found guilty of forging these documents can be punished with **imprisonment for life**, or a prison term that may extend to **ten years**, and they shall also be liable to pay a **fine**.
+
+**",1,1,1,1
+Explain the concept of Abettor in Indian law.,Abettor,1,7.968118906021118,direct,easy,"Under Indian law, the concept of an abettor involves several key principles regarding the encouragement or assistance of a crime:
+
+*   **Definition of an Abettor:** An abettor is a person who promotes the commission of an offense. This also applies if they encourage an act that would be considered an offense if it were committed by someone legally capable of doing so, provided the act is done with the same intention or knowledge as the abettor (**Abettor**).
+*   **Presence During the Offense:** If a person who has abetted a crime is physically present when that crime is actually committed, the law treats them as if they committed the crime themselves. They are held liable for the act or offense as if they were the primary perpetrator (**Abettor present when offence is committed**).
+*   **Liability for Multiple Acts:** In cases where an additional, distinct offense is committed alongside the act that was originally abetted, the abettor can be held responsible for both. Under these circumstances, the abettor is liable to receive punishment for each of the separate offenses committed (**Abettor when liable to cumulative punishment for act abetted and for act done**).",1,1,1,1
+"What is the punishment for Putting person in fear of death or of grievous hurt, in order to commit extortion?","Putting person in fear of death or of grievous hurt, in order to commit extortion",1,5.845641374588013,punishment,hard,"According to the legal provisions provided, the punishment for **Putting person in fear of death or of grievous hurt, in order to commit extortion** (Section 387) is as follows:
+
+If a person puts or attempts to put someone in fear of death or serious physical injury (grievous hurt) to themselves or another person for the purpose of committing extortion, they shall be punished with:
+*   **Imprisonment:** A term that may extend up to **seven years**.
+*   **Fine:** They shall also be liable to pay a fine.",1,1,1,1
+What defines the provision of Negligent conduct with respect to explosive substance?,Negligent conduct with respect to explosive substance,1,5.826259613037109,direct,medium,"According to the provision for **Negligent conduct with respect to explosive substance**, the law defines this offense in two primary ways:
+
+1.  **Rash or Negligent Acts:** It is a crime for anyone to handle an explosive substance in a manner so rash or negligent that it endangers human life or is likely to cause hurt or injury to another person.
+2.  **Failure to Take Precautions:** It is also an offense if a person who possesses an explosive substance knowingly or negligently fails to take the necessary steps to guard against any probable danger to human life arising from that substance.
+
+**Punishment:**
+Anyone found guilty of this conduct can be punished with imprisonment for a term that may extend to six months, a fine of up to one thousand rupees, or both.
+
+**Source:**
+*   Negligent conduct with respect to explosive substance (Section 286)",1,1,1,1

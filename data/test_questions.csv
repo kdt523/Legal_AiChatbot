@@ -1,11 +1,151 @@
-question,expected
-What is the punishment for murder under IPC Section 302?,Death or imprisonment for life and fine
-What are the rights of an accused under Article 22 of the Indian Constitution?,Protection against arbitrary arrest and detention
-Define theft under IPC.,Dishonestly taking movable property without consent
-What is the definition of culpable homicide?,Causing death by doing an act with the intention of causing death
-Explain the concept of mens rea in criminal law.,Guilty mind or criminal intent required for liability
-What is the limitation period for filing a civil suit?,Depends on the nature of suit under Limitation Act 1963
-What constitutes criminal intimidation under IPC?,Threatening someone to cause alarm or compel an act
-What is the difference between bailable and non-bailable offences?,Bail is a matter of right vs discretion of the court
-Define sedition under IPC Section 124A.,Exciting disaffection towards the Government established by law
-What are the essential elements of a valid contract?,Offer acceptance consideration capacity and free consent
+question,expected_law,expected_section,difficulty_level,query_type
+What is the punishment for murder under IPC Section 302?,Punishment for murder,302,easy,punishment
+What characterizes 'Culpable Homicide' in Indian law?,Culpable homicide,299,medium,conceptual
+How can a person be arrested without a warrant under CrPC?,Arrest by police without warrant,41,medium,procedural
+What is the punishment for cheque bounce under NI Act?,Dishonour of cheque,138,easy,punishment
+When is 'hearsay evidence' admissible under the Evidence Act?,Evidence of character,55,hard,conceptual
+What is the penalty for driving without a license under MVA?,Driving without license,181,easy,punishment
+Define 'Grevious Hurt' under the IPC.,Grievous hurt,320,medium,conceptual
+What is the procedure for bail in non-bailable offences?,When bail may be taken in case of non-bailable offence,437,hard,procedural
+What is the definition of theft?,Theft,378,easy,conceptual
+What constitutes 'Criminal Breach of Trust'?,Criminal breach of trust,405,medium,conceptual
+What is the punishment for Receiving property taken by war or depredation mentioned in sections 125 and 126?,Receiving property taken by war or depredation mentioned in sections 125 and 126,,easy,punishment
+"Explain the concept of Forgery of valuable security, will, etc. in Indian law.","Forgery of valuable security, will, etc.",,hard,conceptual
+Explain the concept of Abettor in Indian law.,Abettor,,easy,direct
+"What is the punishment for Putting person in fear of death or of grievous hurt, in order to commit extortion?","Putting person in fear of death or of grievous hurt, in order to commit extortion",,hard,punishment
+What defines the provision of Negligent conduct with respect to explosive substance?,Negligent conduct with respect to explosive substance,,medium,direct
+What is the penalty for Hurt under the law?,Hurt,,hard,punishment
+How is the offence of Procuration of minor girl punished?,Procuration of minor girl,,easy,punishment
+What is the penalty for Having possession of instrument or material for counterfeiting Government stamp under the law?,Having possession of instrument or material for counterfeiting Government stamp,,easy,punishment
+Explain the concept of Owner or occupier of land on which an unlawful assembly is held in Indian law.,Owner or occupier of land on which an unlawful assembly is held,,hard,conceptual
+"What defines the provision of Uttering words, etc., with deliberate intent to wound religious feelings?","Uttering words, etc., with deliberate intent to wound religious feelings",,hard,conceptual
+What defines the provision of Forgery for purpose of harming reputation?,Forgery for purpose of harming reputation,,hard,direct
+How is the offence of Exclusion of acts which are offences independently of harm cause punished?,Exclusion of acts which are offences independently of harm cause,,easy,punishment
+Define Making or selling instrument for counterfeiting Indian coin as per the statutes.,Making or selling instrument for counterfeiting Indian coin,,hard,conceptual
+What is the penalty for Document under the law?,Document,,medium,punishment
+"What defines the provision of Fraudulent cancellation, destruction, etc., of will, authority to adopt, or valuable security?","Fraudulent cancellation, destruction, etc., of will, authority to adopt, or valuable security",,hard,direct
+Explain the concept of Punishment for defamation in Indian law.,Punishment for defamation,,medium,direct
+How is the offence of Punishment for lurking house-trespass or house-breaking punished?,Punishment for lurking house-trespass or house-breaking,,hard,punishment
+Explain the concept of Fraudulently or dishonestly diminishing weight or altering composition of coin in Indian law.,Fraudulently or dishonestly diminishing weight or altering composition of coin,,easy,conceptual
+Explain the concept of Sexual harassment and punishment for sexual harassment in Indian law.,Sexual harassment and punishment for sexual harassment,,easy,conceptual
+What is the punishment for Death caused by act done with intent to cause miscarriage?,Death caused by act done with intent to cause miscarriage,,easy,punishment
+What defines the provision of Punishment of criminal conspiracy?,Punishment of criminal conspiracy,,easy,conceptual
+"Explain the concept of Counterfeiting device or mark used for authenticating documents described in section 467, or possessing counterfeit marked material in Indian law.","Counterfeiting device or mark used for authenticating documents described in section 467, or possessing counterfeit marked material",,hard,conceptual
+What defines the provision of Assault or criminal force in attempt wrongfully to confine a person?,Assault or criminal force in attempt wrongfully to confine a person,,easy,direct
+"Explain the concept of Voluntarily causing grievous hurt to extort confession, or to compel restoration of property in Indian law.","Voluntarily causing grievous hurt to extort confession, or to compel restoration of property",,medium,direct
+What is the penalty for Fraudulent use of false instrument for weighing under the law?,Fraudulent use of false instrument for weighing,,hard,punishment
+What is the penalty for Fraudulent use of false weight or measure under the law?,Fraudulent use of false weight or measure,,easy,punishment
+Define Fouling water of public spring or reservoir as per the statutes.,Fouling water of public spring or reservoir,,hard,direct
+What defines the provision of Abetment of offence punishable with death or imprisonment for life if offence not committed?,Abetment of offence punishable with death or imprisonment for life if offence not committed,,easy,direct
+Explain the concept of Public servant framing an incorrect document with intent to cause injury in Indian law.,Public servant framing an incorrect document with intent to cause injury,,hard,conceptual
+"Define Trespassing on burial places, etc as per the statutes.","Trespassing on burial places, etc",,medium,conceptual
+What is the penalty for Public servant concealing design to commit offence which it is his duty to prevent under the law?,Public servant concealing design to commit offence which it is his duty to prevent,,easy,punishment
+"What defines the provision of Taking gift, etc., to screen an offender from punishment?","Taking gift, etc., to screen an offender from punishment",,easy,conceptual
+What defines the provision of Causing miscarriage?,Causing miscarriage,,medium,direct
+What defines the provision of Using as genuine a forged document?,Using as genuine a forged document,,medium,direct
+Define Punishment for making use of any such false mark as per the statutes.,Punishment for making use of any such false mark,,hard,conceptual
+"What is the penalty for Lurking house-trespass or house-breaking by night after preparation for hurt, assault, or wrongful restraint under the law?","Lurking house-trespass or house-breaking by night after preparation for hurt, assault, or wrongful restraint",,easy,punishment
+What defines the provision of Solitary confinement?,Solitary confinement,,easy,direct
+"Define Rep. by the Prevention of Corruption Act, 1988 as per the statutes.","Rep. by the Prevention of Corruption Act, 1988",,easy,conceptual
+What is the penalty for Every member of unlawful assembly guilty of offence committed in prosecution of common object under the law?,Every member of unlawful assembly guilty of offence committed in prosecution of common object,,medium,punishment
+Define Obstructing public servant in discharge of public functions as per the statutes.,Obstructing public servant in discharge of public functions,,hard,conceptual
+What defines the provision of Finality of judgments and orders on appeal?,Finality of judgments and orders on appeal,,hard,conceptual
+What is the penalty for Application of the Chapter under the law?,Application of the Chapter,,easy,punishment
+How is the offence of Report how submitted punished?,Report how submitted,,hard,punishment
+Define Evidence for prosecution as per the statutes.,Evidence for prosecution,,easy,conceptual
+What is the penalty for Parties may examine witnesses under the law?,Parties may examine witnesses,,easy,punishment
+What defines the provision of Effect of such warrant?,Effect of such warrant,,medium,conceptual
+What is the penalty for Application of this Chapter under the law?,Application of this Chapter,,hard,punishment
+Explain the concept of Assistance in securing transfer of persons in Indian law.,Assistance in securing transfer of persons,,easy,direct
+Define Authorities before whom affidavits may be sworn as per the statutes.,Authorities before whom affidavits may be sworn,,easy,conceptual
+What defines the provision of Public servant concerned in sale not to purchase or bid for property?,Public servant concerned in sale not to purchase or bid for property,,hard,direct
+What defines the provision of Saving?,Saving,,medium,conceptual
+Define Judgment of the Court as per the statutes.,Judgment of the Court,,easy,conceptual
+Explain the concept of Powers of the Appellate Court in Indian law.,Powers of the Appellate Court,,easy,conceptual
+What is the penalty for Prosecution for offences against marriage under the law?,Prosecution for offences against marriage,,easy,punishment
+Define Information in cognizable cases as per the statutes.,Information in cognizable cases,,hard,direct
+"Explain the concept of Trial of persons previously convicted of offences against coinage, stamp law or property in Indian law.","Trial of persons previously convicted of offences against coinage, stamp law or property",,medium,conceptual
+Explain the concept of Guidelines for mutually satisfactory disposition in Indian law.,Guidelines for mutually satisfactory disposition,,easy,conceptual
+What is the punishment for Conviction on plea of guilty?,Conviction on plea of guilty,,hard,punishment
+What is the penalty for Appellate Court may take further evidence or direct it to be taken under the law?,Appellate Court may take further evidence or direct it to be taken,,easy,punishment
+What defines the provision of Powers of superior officers of police?,Powers of superior officers of police,,medium,direct
+What defines the provision of Statements of accused not to be used?,Statements of accused not to be used,,medium,conceptual
+Explain the concept of Return of commission in Indian law.,Return of commission,,easy,conceptual
+What defines the provision of Procedure where dispute concerning land or water is likely to cause breach of peace?,Procedure where dispute concerning land or water is likely to cause breach of peace,,hard,direct
+Explain the concept of Police Officer’s power to require attendance of witnesses in Indian law.,Police Officer’s power to require attendance of witnesses,,medium,conceptual
+What is the penalty for Appeal by the State Government against sentence under the law?,Appeal by the State Government against sentence,,easy,punishment
+Define Service of summons on corporate bodies and societies as per the statutes.,Service of summons on corporate bodies and societies,,medium,direct
+What defines the provision of Definitions?,Definitions,,hard,direct
+What defines the provision of Person once convicted or acquitted not to be tried for same offence?,Person once convicted or acquitted not to be tried for same offence,,easy,conceptual
+Explain the concept of Place of trial where act is offence by reason of relation to other offence in Indian law.,Place of trial where act is offence by reason of relation to other offence,,medium,direct
+What is the punishment for Postponement of capital sentence on pregnant woman?,Postponement of capital sentence on pregnant woman,,hard,punishment
+"What defines the provision of Relevancy of statements in maps, charts and plans?","Relevancy of statements in maps, charts and plans",,medium,conceptual
+"Define Presumption as to books, maps and charts as per the statutes.","Presumption as to books, maps and charts",,easy,direct
+Define Court to decide when question shall be asked and when witness compelled to answer as per the statutes.,Court to decide when question shall be asked and when witness compelled to answer,,hard,conceptual
+Explain the concept of Proof of documents by primary evidence in Indian law.,Proof of documents by primary evidence,,hard,conceptual
+Define Things said or done by conspirator in reference to common design as per the statutes.,Things said or done by conspirator in reference to common design,,medium,conceptual
+What defines the provision of Production of title-deeds of witness not a party?,Production of title-deeds of witness not a party,,hard,conceptual
+How is the offence of No new trial for improper admission or rejection of evidence punished?,No new trial for improper admission or rejection of evidence,,easy,punishment
+"Explain the concept of Relevancy of certain judgments in probate, etc., jurisdiction in Indian law.","Relevancy of certain judgments in probate, etc., jurisdiction",,easy,direct
+What is the punishment for Official communications?,Official communications,,easy,punishment
+How is the offence of Previous judgments relevant to bar a second suit or trial punished?,Previous judgments relevant to bar a second suit or trial,,hard,punishment
+Define Presumption as to electronic records five years old as per the statutes.,Presumption as to electronic records five years old,,hard,conceptual
+Explain the concept of Presumption as to Digital Signature Certificates in Indian law.,Presumption as to Digital Signature Certificates,,easy,direct
+What defines the provision of When oral admissions as to contents of documents are relevant?,When oral admissions as to contents of documents are relevant,,medium,conceptual
+How is the offence of Number of witnesses punished?,Number of witnesses,,medium,punishment
+How is the offence of Interpretation clause punished?,Interpretation clause,,hard,punishment
+Explain the concept of Presumption as to document admissible in England without proof of seal or signature in Indian law.,Presumption as to document admissible in England without proof of seal or signature,,hard,conceptual
+What defines the provision of Public documents?,Public documents,,hard,direct
+"How is the offence of Burden of proof as to relationship in the cases of partners, landlord and tenant, principal and agent punished?","Burden of proof as to relationship in the cases of partners, landlord and tenant, principal and agent",,easy,punishment
+What defines the provision of Presumption as to absence of consent in certain prosecution for rape?,Presumption as to absence of consent in certain prosecution for rape,,medium,direct
+What defines the provision of Facts admitted need not be proved?,Facts admitted need not be proved,,easy,conceptual
+What is the punishment for Offences to be compoundable?,Offences to be compoundable,,hard,punishment
+What defines the provision of Holder's right to duplicate of lost bill?,Holder's right to duplicate of lost bill,,easy,conceptual
+What defines the provision of Noting?,Noting,,medium,direct
+What is the punishment for Liability of acceptor for honour?,Liability of acceptor for honour,,medium,punishment
+How is the offence of Holder deriving title from holder in due course punished?,Holder deriving title from holder in due course,,easy,punishment
+Explain the concept of Holder of first acquired part entitled to all in Indian law.,Holder of first acquired part entitled to all,,hard,direct
+Explain the concept of Dishonour by non-payment in Indian law.,Dishonour by non-payment,,hard,conceptual
+Define Non-liability of banker receiving payment of cheque as per the statutes.,Non-liability of banker receiving payment of cheque,,medium,conceptual
+Define Partial failure of consideration not consisting of money as per the statutes.,Partial failure of consideration not consisting of money,,medium,conceptual
+Define Liability of prior parties to holder in due course as per the statutes.,Liability of prior parties to holder in due course,,hard,conceptual
+Tell me about Judgment when to be translated in crpc.json.,Judgment when to be translated,,medium,conceptual
+Tell me about Summons to produce document or other thing in crpc.json.,Summons to produce document or other thing,,medium,conceptual
+"Tell me about Voluntarily causing grievous hurt to extort property, or to constrain to an illegal act in ipc.json.","Voluntarily causing grievous hurt to extort property, or to constrain to an illegal act",,medium,conceptual
+Tell me about Punishment for mischief in ipc.json.,Punishment for mischief,,medium,conceptual
+"Tell me about Act done by a person justified, or by mistake of fact believing himself, justified, by law in ipc.json.","Act done by a person justified, or by mistake of fact believing himself, justified, by law",,medium,conceptual
+Tell me about Pursuit of offenders into other jurisdictions in crpc.json.,Pursuit of offenders into other jurisdictions,,medium,conceptual
+Tell me about Procedure by police upon seizure of property in crpc.json.,Procedure by police upon seizure of property,,medium,conceptual
+Tell me about When facts not otherwise relevant become relevant in iea.json.,When facts not otherwise relevant become relevant,,medium,conceptual
+Tell me about Punishment for lurking house-trespass or house-breaking by night in ipc.json.,Punishment for lurking house-trespass or house-breaking by night,,medium,conceptual
+Tell me about Executive Magistrates in crpc.json.,Executive Magistrates,,medium,conceptual
+Tell me about Commitment for trial or confinement by person having authority who knows that he is acting contrary to law in ipc.json.,Commitment for trial or confinement by person having authority who knows that he is acting contrary to law,,medium,conceptual
+Tell me about Facts bearing upon opinions of experts in iea.json.,Facts bearing upon opinions of experts,,medium,conceptual
+Tell me about Receiving property taken by war or depredation mentioned in sections 125 and 126 in ipc.json.,Receiving property taken by war or depredation mentioned in sections 125 and 126,,medium,conceptual
+Tell me about Public servant framing incorrect record or writing with intent to save person from punishment or property from forfeiture in ipc.json.,Public servant framing incorrect record or writing with intent to save person from punishment or property from forfeiture,,medium,conceptual
+"Tell me about Appeals from convictions under sections 344, 345, 349 and 350 in crpc.json.","Appeals from convictions under sections 344, 345, 349 and 350",,medium,conceptual
+"Tell me about Rep. by the Prevention of Corruption Act, 1988 in ipc.json.","Rep. by the Prevention of Corruption Act, 1988",,medium,conceptual
+Tell me about Punishment for repeat offenders in ipc.json.,Punishment for repeat offenders,,medium,conceptual
+Tell me about Presumption as to certified copies of foreign judicial records in iea.json.,Presumption as to certified copies of foreign judicial records,,medium,conceptual
+Tell me about Estoppel against denying capacity of payee to indorse in nia.json.,Estoppel against denying capacity of payee to indorse,,medium,conceptual
+Tell me about Being member of unlawful assembly in ipc.json.,Being member of unlawful assembly,,medium,conceptual
+Tell me about Using as genuine a forged document in ipc.json.,Using as genuine a forged document,,medium,conceptual
+Tell me about Discharge of offender on submission of apology in crpc.json.,Discharge of offender on submission of apology,,medium,conceptual
+Tell me about Procedure in cases which Magistrate cannot dispose of in crpc.json.,Procedure in cases which Magistrate cannot dispose of,,medium,conceptual
+Tell me about Trafficking of persons in ipc.json.,Trafficking of persons,,medium,conceptual
+"Tell me about Opinion as to existence of right or custom, when relevant in iea.json.","Opinion as to existence of right or custom, when relevant",,medium,conceptual
+Tell me about Forged document in ipc.json.,Forged document,,medium,conceptual
+Tell me about Absence of complainant in crpc.json.,Absence of complainant,,medium,conceptual
+Tell me about Authorities before whom affidavits may be sworn in crpc.json.,Authorities before whom affidavits may be sworn,,medium,conceptual
+Tell me about Procedure when appellant in jail in crpc.json.,Procedure when appellant in jail,,medium,conceptual
+Tell me about Postponement of capital sentence on pregnant woman in crpc.json.,Postponement of capital sentence on pregnant woman,,medium,conceptual
+Tell me about Resistance or obstruction to lawful apprehension of another person in ipc.json.,Resistance or obstruction to lawful apprehension of another person,,medium,conceptual
+Tell me about Judge in ipc.json.,Judge,,medium,conceptual
+"Tell me about Imprisonment for non-payment of fine, when offence punishable with fine only in ipc.json.","Imprisonment for non-payment of fine, when offence punishable with fine only",,medium,conceptual
+Tell me about Contents of charge in crpc.json.,Contents of charge,,medium,conceptual
+Tell me about Counterfeiting coin in ipc.json.,Counterfeiting coin,,medium,conceptual
+Tell me about Possession of Indian coin by person who knew it to be altered when he became possessed thereof in ipc.json.,Possession of Indian coin by person who knew it to be altered when he became possessed thereof,,medium,conceptual
+Tell me about Local inspection in crpc.json.,Local inspection,,medium,conceptual
+Tell me about Extension of Code to extra-territorial offences in ipc.json.,Extension of Code to extra-territorial offences,,medium,conceptual
+Tell me about Confirmation or new sentence to be signed by two Judges in crpc.json.,Confirmation or new sentence to be signed by two Judges,,medium,conceptual
+Tell me about Public servant in ipc.json.,Public servant,,medium,conceptual

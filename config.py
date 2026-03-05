@@ -67,7 +67,7 @@ RERANKER_MODEL = "cross-encoder/ms-marco-MiniLM-L-6-v2"
 # Gemini
 # ──────────────────────────────────────────────
 GEMINI_API_KEY     = os.getenv("GEMINI_API_KEY", "")
-GEMINI_MODEL       = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+GEMINI_MODEL       = os.getenv("GEMINI_MODEL", "models/gemini-2.5-flash")
 GEMINI_TEMPERATURE = 0.2
 
 # ──────────────────────────────────────────────
